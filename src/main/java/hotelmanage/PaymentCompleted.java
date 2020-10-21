@@ -1,9 +1,9 @@
 package hotelmanage;
 
 public class PaymentCompleted extends AbstractEvent{
-    private int ReservationNumber;
+    private int ReserveNo;
     private int PaymentId;
-    private int PaymentPrice;
+    private int ReservePrice;
     private String ReservationStatus;
 
     public String getReservationStatus() {
@@ -14,25 +14,22 @@ public class PaymentCompleted extends AbstractEvent{
         ReservationStatus = reservationStatus;
     }
 
-
-
     public void setPaymentStatus(String paymentStatus) {
         PaymentStatus = paymentStatus;
     }
 
     private String PaymentStatus;
 
-
     public PaymentCompleted(){
         super();
     }
 
-    public int getReservationNumber() {
-        return ReservationNumber;
+    public int getReservationNo() {
+        return ReserveNo;
     }
 
-    public void setReservationNumber(int reservationNumber) {
-        this.ReservationNumber = reservationNumber;
+    public void setReservationNo(int reservationNo) {
+        this.ReserveNo = reservationNo;
     }
 
     public int getPaymentId() {
@@ -44,11 +41,11 @@ public class PaymentCompleted extends AbstractEvent{
     }
 
     public int getPaymentPrice() {
-        return PaymentPrice;
+        return ReservePrice;
     }
 
-    public void setPaymentPrice(int paymentPrice) {
-        this.PaymentPrice = paymentPrice;
+    public void setPaymentPrice(int reservePrice) {
+        this.ReservePrice = reservePrice;
     }
 
 }

@@ -12,7 +12,7 @@ public class Payment {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private int PaymentId; // 생성
-    private int ReservationNo; // 받아야 되고
+    private int ReserveNo; // 받아야 되고
     private int ReservePrice; // 받아야되고
     private String ReserveStatus; //받아야되고
     private String PaymentStatus;//결재될떄 "Y" 로 셋팅
@@ -26,8 +26,8 @@ public class Payment {
             setPaymentStatus("Y");
             paymentCompleted.setPaymentId(PaymentId);
             System.out.printf("PaymentId : %d\n",PaymentId);
-            paymentCompleted.setReservationNumber(ReservationNo);
-            System.out.printf("ReservationNumber : %d\n",ReservationNo);
+            paymentCompleted.setReservationNo(ReserveNo);
+            System.out.printf("ReservationNumber : %d\n",ReserveNo);
             paymentCompleted.setPaymentPrice(ReservePrice);
             System.out.printf("PaymentPrice : %d\n",ReservePrice);
             paymentCompleted.setReservationStatus(ReserveStatus);
@@ -56,11 +56,11 @@ public class Payment {
     }
 
     public int getReservationNumber() {
-        return ReservationNo;
+        return ReserveNo;
     }
 
-    public void setReservationNumber(int reservationNo) {
-        ReservationNo = reservationNo;
+    public void setReservationNo(int reservationNo) {
+        ReserveNo = reservationNo;
     }
 
     public int getPaymentPrice() {
