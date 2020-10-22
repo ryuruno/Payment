@@ -1,4 +1,4 @@
-package hotelmanage;
+package accommodation;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 

@@ -1,4 +1,4 @@
-package hotelmanage;
+package accommodation;
 
 public class PaymentCompleted extends AbstractEvent{
     private int ReserveNo;

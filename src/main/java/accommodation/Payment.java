@@ -1,10 +1,8 @@
-package hotelmanage;
+package accommodation;
 
 
 import javax.persistence.*;
 import org.springframework.beans.BeanUtils;
-import org.springframework.transaction.support.TransactionSynchronizationAdapter;
-import org.springframework.transaction.support.TransactionSynchronizationManager;
 
 @Entity
 @Table(name="Payment_table")

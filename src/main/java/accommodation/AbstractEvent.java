@@ -1,6 +1,6 @@
-package hotelmanage;
+package accommodation;
 
-import hotelmanage.config.kafka.KafkaProcessor;
+import accommodation.config.kafka.KafkaProcessor;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.messaging.MessageChannel;

@@ -1,8 +1,8 @@
-D:\accommodationMgt\Payment\src\main\java\hotelmanage\Application.java
-D:\accommodationMgt\Payment\src\main\java\hotelmanage\PaymentCompleted.java
-D:\accommodationMgt\Payment\src\main\java\hotelmanage\PaymentRepository.java
-D:\accommodationMgt\Payment\src\main\java\hotelmanage\PolicyHandler.java
-D:\accommodationMgt\Payment\src\main\java\hotelmanage\config\kafka\KafkaProcessor.java
-D:\accommodationMgt\Payment\src\main\java\hotelmanage\Payment.java
-D:\accommodationMgt\Payment\src\main\java\hotelmanage\PaymentController.java
-D:\accommodationMgt\Payment\src\main\java\hotelmanage\AbstractEvent.java
+D:\accommodationMgt\Payment\src\main\java\accommodation\AbstractEvent.java
+D:\accommodationMgt\Payment\src\main\java\accommodation\PaymentRepository.java
+D:\accommodationMgt\Payment\src\main\java\accommodation\PaymentCompleted.java
+D:\accommodationMgt\Payment\src\main\java\accommodation\Application.java
+D:\accommodationMgt\Payment\src\main\java\accommodation\PaymentController.java
+D:\accommodationMgt\Payment\src\main\java\accommodation\config\kafka\KafkaProcessor.java
+D:\accommodationMgt\Payment\src\main\java\accommodation\Payment.java
+D:\accommodationMgt\Payment\src\main\java\accommodation\PolicyHandler.java
